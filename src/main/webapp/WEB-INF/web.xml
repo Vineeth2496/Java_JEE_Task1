@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+<context-param>
+	<param-name>driver</param-name>
+	<param-value>oracle.jdbc.driver.OracleDriver</param-value>
+</context-param>
+
+
+  <servlet>
+  		<servlet-name>Instabackend</servlet-name>
+  		<servlet-class>Instabackend</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>Instabackend</servlet-name>
+  		<url-pattern>/Instabackend</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
